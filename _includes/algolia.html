@@ -1,0 +1,71 @@
+<script>
+const search = instantsearch({
+  appId: '{{site.algolia.application_id}}',
+  indexName: '{{site.algolia.index_name}}',
+  apiKey: '{{site.algolia.search_only_api_key}}'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('D MMM YYYY');
+  }
+
+  let url = `{{ site.baseurl }}${hit.url}`;
+
+  const title = hit._highlightResult.title.value;
+  let content;
+  if (hit._highlightResult.html) {
+    content = hit._highlightResult.html.value;
+  }
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: function(hit) {
+        return hitTemplate(hit)
+      }
+    }
+  })
+);
+
+search.start();
+
+$(function() {
+  $('.ais-search-box--input').blur();
+  $('.ais-search-box--input').keyup(function() {
+    if ($.trim($(this).val()) !== '') {
+      $('#search-hits').show(400);
+    } else {
+      $('#search-hits').hide(400);
+    }
+  });
+  // $('#search-searchbar input').on('change', function() {
+  //   $('#search-hits').show(400);
+  // })
+});
+
+$(function() {
+  $("#search-hits").on('click', '#close', function () {
+    $('#lunrsearchresults').hide( 5 );
+    $( "body" ).removeClass( "modal-open" );
+  });
+});
+</script>

@@ -17,6 +17,7 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
+    ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
     ffi (1.10.0-x86-mingw32)
     filesize (0.2.0)
@@ -73,6 +74,8 @@ GEM
       mini_portile2 (~> 2.3.0)
     nokogiri (1.8.5-x64-mingw32)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.5-x86-mingw32)
+      mini_portile2 (~> 2.3.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.10.0)
@@ -102,13 +105,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-
-RUBY VERSION
-<<<<<<< HEAD
-   ruby 2.6.1p33
-=======
-   ruby 2.4.1p111
->>>>>>> 4f54ba0... customize
 
 BUNDLED WITH
    1.17.2
