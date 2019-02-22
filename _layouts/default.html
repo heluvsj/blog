@@ -39,7 +39,6 @@
         <a class="navbar-brand" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
         </a>
-        <!-- End Logo -->
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,14 +47,6 @@
         <div class="collapse navbar-collapse" id="navbarMediumish">
           <!-- Begin Menu -->
             <ul class="navbar-nav ml-auto">
-              <!-- {% if page.url == "/" %}
-                <li class="nav-item active">
-              {% else %}
-                <li class="nav-item">
-              {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-              </li> -->
-              
               {% if page.url == "/about.html" %}
                 <li class="nav-item active">
               {% else %}
@@ -63,26 +54,13 @@
               {% endif %}
               <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip"><i class="fas fa-download"></i> Download</a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-              </li> -->
-              <!-- {% include search-lunr.html %} -->
 
               <!-- Search -->
               <div id="search-searchbar"></div>
             </ul>
-          <!-- End Menu -->
         </div>
       </div>
     </nav>
-    <!-- End Navigation
-    ================================================== -->
         
     <div class="site-content">
     <div class="container">
@@ -119,32 +97,7 @@
       </div>    
     {% endif %}
         
-    </div><!-- /.container> -->
-        
-    <!-- Categories Jumbotron
-    ================================================== -->
-    <!-- <div class="jumbotron fortags">
-      <div class="d-md-flex h-100">
-        <div class="col-md-4 transpdark align-self-center text-center h-100">
-          <div class="d-md-flex align-items-center justify-content-center h-100">
-            <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-          </div>
-        </div>
-        <div class="col-md-8 p-5 align-self-center text-center">      
-          {% assign categories_list = site.categories %}
-          {% if categories_list.first[0] == null %}
-            {% for category in categories_list %}
-              <a href="{{site.baseurl}}/categories#{{ category | downcase | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-            {% endfor %}
-          {% else %}
-            {% for category in categories_list %}
-              <a href="{{site.baseurl}}/categories#{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-            {% endfor %}
-          {% endif %}
-          {% assign categories_list = nil %}
-        </div>
-      </div>
-    </div> -->
+    </div>
 
     <!-- Begin Footer
     ================================================== -->
@@ -160,9 +113,9 @@
         </div>
       </div>
     </footer>
-    <!-- End Footer
-    ================================================== -->
-    </div> <!-- /.site-content -->
+    </div>
+
+    {% include algolia.html %}
 
     <!-- Scripts
     ================================================== -->
@@ -171,7 +124,5 @@
     <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
     <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
     <!-- <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script> -->
-    <!-- <script id="{{site.algolia.application_id}}" name="{{site.algolia.index_name}}" key="{{site.algolia.search_only_api_key}}" src="{{site.baseurl}}/assets/js/algolia.js"></script> -->
-    {% include algolia.html %}
   </body>
 </html>

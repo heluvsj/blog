@@ -8,11 +8,11 @@ License: https://www.wowthemes.net/freebies-license/
   padding:1rem 0rem;
 }
 a {
-  color:#00ab6b;
+  color:#5f9ea0;
   transition:all 0.2s;
 }
 a:hover {
-  color: #038252;
+  color: #778899;
   text-decoration:none;
 }
 pre {
@@ -125,56 +125,8 @@ section.recent-posts {
 .wrapfooter {
   font-size:12px;
 }
-.author-thumb {
-  width:40px;
-  height:40px;
-  float:left;
-  margin-right:13px;
-  border-radius:100%;
-}
-.post-top-meta {
-  margin-bottom:2rem;
-}
-.post-top-meta .author-thumb {
-  width:72px;
-  height:72px;
-}
-.post-top-meta.authorpage .author-thumb {
-  margin-top:40px;
-}
-.post-top-meta span {
-  font-size:0.9rem;
-  color:rgba(0,0,0,.44);
-  display:inline-block;
-}
-.post-top-meta .author-description {
-  margin-bottom:5px;
-  margin-top:5px;
-  font-size:0.95rem;
-}
-.author-meta {
-  flex:1 1 auto;
-  white-space:nowrap!important;
-  text-overflow:ellipsis!important;
-  overflow:hidden!important;
-}
-span.post-name,span.post-date,span.author-meta {
-  display:inline-block;
-}
 span.post-date,span.post-read {
   color:rgba(0,0,0,.44);
-}
-span.post-read-more {
-  align-items:center;
-  display:inline-block;
-  float:right;
-  margin-top:8px;
-}
-span.post-read-more a {
-  color:rgba(0,0,0,.44);
-}
-span.post-name a,span.post-read-more a:hover {
-  color:rgba(0,0,0,.8);
 }
 .dot:after {
   content:"·";
@@ -249,10 +201,10 @@ span.post-name a,span.post-read-more a:hover {
   color:rgba(0,0,0,.8);
 }
 blockquote {
-  border-left:4px solid #00ab6b;
+  border-left:4px solid #dcdcdc;
   padding:0 20px;
   font-style:italic;
-  color:rgba(0,0,0,.5);
+  color:rgba(0,0,0,.4);
 }
 .article-post p,.article-post blockquote {
   margin:0 0 1.5rem 0;
@@ -261,40 +213,8 @@ blockquote {
   display:block;
   margin-bottom:1.5rem;
 }
-.share {
-  text-align:center;
-}
-.share p {
-  margin-bottom:10px;
-  font-size:0.95rem;
-}
-.share ul li {
-  display:inline-block;
-  margin-bottom:9px;
-}
-.share ul {
-  padding-left:0;
-  margin-left:0;
-}
-.share ul li i.fa {
-  border:1px solid #ddd;
-  width:30px;
-  height:30px;
-  line-height:30px;
-  text-align:center;
-  border-radius:50%;
-}
 .svgIcon {
   vertical-align:middle;
-}
-@media (min-width:1024px) {
-  .share {
-    position:fixed;
-    display:block;
-  }
-  .share ul li {
-    display:block;
-  }
 }
 @media (max-width:999px) {
   .alertbar {
@@ -306,9 +226,6 @@ blockquote {
   }
   #comments {
     margin-right: 15px;
-  }
-  .jumbotron.fortags {
-    margin-bottom:0 !Important;
   }
   .alertbar form {
     margin-top:20px;
@@ -324,10 +241,6 @@ blockquote {
     display:block;
     border-right:1px solid #ddd !Important;
     margin-bottom:10px;
-  }
-  .jumbotron {
-    margin-bottom:0;
-    border-radius: 0;
   }
   .listfeaturedtag .wrapthumbnail, .listfeaturedtag .col-md-7 {
     width:100%;
@@ -355,28 +268,10 @@ blockquote {
     margin-bottom: 0px;
   }
 }
-@media (max-width:1024px) {
-  .post-top-meta .col-md-10 {
-    text-align:center;
-  }
-}
-@media (max-width:767px) {
-  .post-top-meta.authorpage {
-    text-align:center;
-  }
-}
-.share,.share a {
-  color:rgba(0,0,0,.44);
-  fill:rgba(0,0,0,.44);
-}
 .graybg {
   background-color:#fafafa;
   padding:40px 0 46px;
   position:relative;
-}
-.listrelated .card {
-  box-shadow:0 1px 7px rgba(0,0,0,.05);
-  border:0;
 }
 ul.tags {
   list-style:none;
@@ -472,64 +367,6 @@ ul.tags li a:hover {
   letter-spacing:0.5px;
   cursor: pointer;
 }
-.form-control::-webkit-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-.form-control:-moz-placeholder {
-  color: rgba(0,0,0,.5);
-}
-.form-control::-moz-placeholder {
-  color: rgba(0,0,0,.5);
-}
-.form-control:-ms-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-.form-control::-ms-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-.authorpage h1 {
-  font-weight:700;
-  font-size:30px;
-}
-.post-top-meta.authorpage .author-thumb {
-  float:none;
-}
-.authorpage .author-description {
-  font-size:1rem;
-  color:rgba(0,0,0,.6);
-}
-.post-top-meta.authorpage .btn.follow {
-  padding:7px 20px;
-  margin-top:10px;
-  margin-left:0;
-  font-size:0.9rem;
-}
-.graybg.authorpage {
-  border-top:1px solid #f0f0f0;
-}
-.authorpostbox {
-  width:760px;
-  margin:0px auto;
-  margin-bottom:1.5rem;
-  max-width:100%;
-}
-.authorpostbox .img-thumb {
-  width:100%;
-}
-.sociallinks {
-  margin:1rem 0;
-}
-.sociallinks a {
-  background:#666;
-  color:#fff;
-  width:22px;
-  height:22px;
-  display:inline-block;
-  text-align:center;
-  line-height:22px;
-  border-radius:50%;
-  font-size:12px;
-}
 #comments {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -592,44 +429,6 @@ iframe {
   background: rgba(0,0,0,0.75);
   color: #fff;
 }
-@media (min-width:768px) {
-  .jumbotron.fortags {
-        margin-bottom:-50px;
-        margin-top: 3rem;
-        padding:0;
-        height:350px;
-        border-radius:0;
-        background-image: url(../images/jumbotron.jpg);
-        background-size:cover;
-  }
-  .jumbotron.fortags .col-md-4 {
-        background:rgba(0,0,0,0.75);
-        color:#fff;
-  }
-  .jumbotron.fortags .row {
-        margin:0;
-  }
-}
-.jumbotron.fortags { 
-  margin-top: 3rem;
-  padding:0;
-  border-radius:0;
-  background-image: url(../images/jumbotron.jpg);
-  background-size:cover;
-}
-.jumbotron.fortags a {
-  padding: 5px 10px 7px;
-  background: #222;
-  border-radius: 30px;
-  color: #fff;
-  font-weight: 500;
-  text-transform: lowercase;
-  font-size: 0.8rem;
-  display: inline-block;
-}
-.layout-page .jumbotron.fortags {
-  display:none;
-}
 .mb-30px {
   margin-bottom:30px;
 }
@@ -651,11 +450,6 @@ iframe {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
-  }
-}
-@media (max-width: 768px) {
-  .share {
-    margin-top:30px;
   }
 }
 .card .img-fluid {
@@ -690,6 +484,21 @@ body {
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.04);
   min-width: 180px;
+}
+.ais-search-box input::-webkit-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input:-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input::-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input:-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input::-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
 }
 @media (min-width:1024px) {
   #search-hits {
