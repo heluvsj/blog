@@ -4,7 +4,7 @@ title:  "Quick Start Guide"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg
-featured: true
+# featured: true
 hidden: true
 ---
 
