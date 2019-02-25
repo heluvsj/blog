@@ -1,0 +1,122 @@
+/* For search */
+.ais-search-box--powered-by {
+  display: none;
+}
+#search-searchbar .ais-search-box {
+  height: 38px;
+  max-width: 100%;
+}
+.ais-search-box input {
+  font-size: 0.8rem;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.04);
+  min-width: 180px;
+}
+.ais-search-box input::-webkit-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input:-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input::-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input:-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+.ais-search-box input::-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+@media (min-width:991px) {
+  #search-results {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 70%;
+    max-height: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    overflow: scroll;
+    z-index: 1;
+    transition: top 0.2s ease-out;
+  }
+  .nav-up + .site-content #search-results {
+    top: 19px;
+    transition: top 0.2s ease-in-out;
+  }
+}
+@media (max-width:991px) {
+  #search-searchbar,#search-results {
+    display: none;
+  }
+}
+.post-item .post-link {
+  color: rgba(0,0,0,.8);
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+.post-item.no-results {
+  margin-top: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+#search-results-close .search-results-close-btn {
+  fill: #bfc7d8;
+  top: 15px;
+  right: 13px;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: 0 0;
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  svg {
+    display: block;
+    width: 12px;
+    height: 12px;
+  }
+}
+#mobile-search-btn {
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  fill: #bfc7d8;
+  top: calc(50% - 18px/2);
+  background: 0 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+  }
+}
