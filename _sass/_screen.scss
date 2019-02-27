@@ -40,8 +40,11 @@ pre {
 .site-content {
   min-height: 60vh;
   padding-top: 1.5rem;
-  margin-top: 57px;
   transition: all 0.4s;
+
+  @media (min-width: 992px) {
+    margin-top: 57px;
+  }
 }
 section {
   margin-bottom:20px;

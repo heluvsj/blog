@@ -14,7 +14,8 @@
           </li>
 
           <!-- Search for desktop -->
-          {% unless page.url == "/search" %}
+          {% assign arr = "/search,/404" | split:"," %}
+          {% unless arr contains page.url %}
             <div id="search-searchbar"></div>
           {% endunless %}
         </ul>
