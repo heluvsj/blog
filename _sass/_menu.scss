@@ -1,0 +1,60 @@
+#menu-nav {
+  position: sticky;
+  top: 0;
+  font-size: 0.9em;
+  z-index: 1000;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  &.menu-nav-shadow {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+  }
+
+  .navbar-nav {
+    @media (max-width: 991px) {
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .nav-item {
+      .nav-link {
+        color: rgba(0,0,0,.6);
+        padding: .3rem 0;
+        @media (max-width: 991px) {
+          padding-right: 0.8rem;
+          padding-left: 0.8rem;
+        }
+      }
+      &.active .nav-link {
+        color: rgba(0,0,0,.9);
+      }
+    }
+  }
+
+  .menu-arrow-left, .menu-arrow-right {
+    position: absolute;
+    top: 3px;
+    border: none;
+    padding: 0;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .menu-arrow-left {
+    left: -15px;
+  }
+
+  .menu-arrow-right {
+    right: -15px;
+  }
+
+  .slick-list {
+    font-size: 0.83rem;
+  }
+
+  .slick-disabled svg {
+    fill: rgba(0,0,0,.3);
+  }
+}

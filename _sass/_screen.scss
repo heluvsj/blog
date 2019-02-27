@@ -469,3 +469,9 @@ iframe {
 body {
   font-family: "Nanum Gothic", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
