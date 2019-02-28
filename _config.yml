@@ -46,6 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-multiple-languages-plugin
     
 # Archives
 jekyll-archives:
@@ -73,3 +74,10 @@ algolia:
   search_only_api_key : a48e8c87f06205db13d843932dba2c06
   powered_by          : # true (default), false
   files_to_exclude    : [_pages/search.html, _pages/about.md, _pages/categories.md, index.html]
+
+languages: ["ko", "ja"]
+exclude_from_localizations: ["javascript", "css"]
+defaultLang: ko
+languageNames:
+  ko: Korean
+  ja: Japanese

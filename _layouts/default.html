@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{site.lang}}">
   <head>
     {% include head.html %}
   </head>
@@ -14,7 +14,7 @@
     ================================================== -->
     {% include navigation.html %}
         
-    <div class="site-content">
+    <div class="site-content {% if arr contains page.url %}page-404-content{% endif %}">
       <div class="container">
 
         <!-- Site Title

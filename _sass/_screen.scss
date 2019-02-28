@@ -42,8 +42,10 @@ pre {
   padding-top: 1.5rem;
   transition: all 0.4s;
 
-  @media (min-width: 992px) {
-    margin-top: 57px;
+  &.page-404-content {
+    @media (min-width: 992px) {
+      margin-top: 57px;
+    }
   }
 }
 section {

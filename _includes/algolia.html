@@ -23,10 +23,14 @@ const search = instantsearch({
 const hitTemplate = function(hit) {
   let date = '';
   if (hit.date) {
-    date = moment.unix(hit.date).format('D MMM YYYY');
+    if (['ko', 'ja'].includes('{{site.lang}}')) {
+      date = moment.unix(hit.date).format('YYYY{% t global.year %} MM{% t global.month %} D{% t global.day %}');
+    } else {
+      date = moment.unix(hit.date).format('D MMM YYYY');
+    }
   }
 
-  let url = `{{ site.baseurl }}${hit.url}`;
+  let url = `{{site.baseurl_root}}/{{site.lang}}${hit.url}`;
 
   const title = hit._highlightResult.title.value;
   let content;
@@ -45,14 +49,14 @@ const hitTemplate = function(hit) {
 
 const emptyTemplate = `
   <div class="post-item no-results">
-    <h5>Sorry, no results found. Close & try a different search!</h5>
+    <h5>{% t global.no_results %}</h5>
   </div>
 `
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: 'Search into posts...',
+    placeholder: '{% t global.search_placeholder %}',
     poweredBy: true
   })
 );
