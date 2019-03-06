@@ -1,7 +1,0 @@
-global:
-  description: こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。
-  year: 年
-  month: 月
-  day: 日
-  search_placeholder: 記事を検索してください
-  no_results: 検索結果がありません。違うキーワードで検索してみましょう。:)

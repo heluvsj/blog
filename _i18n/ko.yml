@@ -1,7 +1,0 @@
-global:
-  description: 안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.
-  year: 년
-  month: 월
-  day: 일
-  search_placeholder: 포스트를 검색하십시오
-  no_results: 검색 결과가 없습니다. 다른 키워드로 검색해보세요. :)

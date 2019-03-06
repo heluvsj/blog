@@ -46,7 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-multiple-languages-plugin
+  - jekyll-polyglot
     
 # Archives
 jekyll-archives:
@@ -73,11 +73,21 @@ algolia:
   index_name          : heluvsj
   search_only_api_key : a48e8c87f06205db13d843932dba2c06
   powered_by          : # true (default), false
-  files_to_exclude    : [_pages/search.html, _pages/about.md, _pages/categories.md, index.html]
+  # max_record_size     : 20000
+  # indexing_batch_size : 2500
+  files_to_exclude    : [
+    _pages/search.html,
+    _pages/about.md,
+    _pages/categories.md,
+    index.html,
+    _posts/ja/*.md
+  ]
 
+# For multi languages
 languages: ["ko", "ja"]
-exclude_from_localizations: ["javascript", "css"]
-defaultLang: ko
-languageNames:
-  ko: Korean
-  ja: Japanese
+default_lang: "ko"
+exclude_from_localization: ["javascript", "css"]
+parallel_localization: true
+
+# timezone
+timezone: Asia/Tokyo

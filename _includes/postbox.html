@@ -12,7 +12,7 @@
     </div>
     <div class="card-footer bg-white">
       <div class="wrapfooter">
-        {% capture date %}%Y{% t global.year %} %m{% t global.month %} %d{% t global.day %}{% endcapture %}
+        {% capture date %}%Y{{site.data["global"]["year"][site.active_lang]}} %m{{site.data["global"]["month"][site.active_lang]}} %d{{site.data["global"]["day"][site.active_lang]}}{% endcapture %}
         <span class="post-date">{{ post.date | date: date }}</span>
         <div class="clearfix"></div>
       </div>

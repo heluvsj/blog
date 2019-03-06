@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+lang: ja
 permalink: /about
 ---
-안녕안녕
+こんにちは

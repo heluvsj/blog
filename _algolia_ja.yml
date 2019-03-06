@@ -1,0 +1,14 @@
+algolia:
+  application_id      : H4CRMVZ8UX
+  index_name          : heluvsj-ja
+  search_only_api_key : a48e8c87f06205db13d843932dba2c06
+  powered_by          : # true (default), false
+  # max_record_size     : 20000
+  # indexing_batch_size : 2500
+  files_to_exclude    : [
+    _pages/search.html,
+    _pages/about.md,
+    _pages/categories.md,
+    index.html,
+    _posts/ko/*.md
+  ]

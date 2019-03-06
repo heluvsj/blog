@@ -15,6 +15,10 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
-    gem 'jekyll-algolia'
-    gem 'jekyll-multiple-languages-plugin'
+    # gem 'jekyll-algolia'
+    gem 'jalgolia', path: '/Users/jo/src/gems/jalgolia'
+    gem 'jekyll-polyglot'
+    gem 'jekyll-compose'
 end
+gem 'pry'
+gem 'pry-byebug'

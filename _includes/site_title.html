@@ -1,6 +1,6 @@
 <div class="mainheading">
   <h1 class="sitetitle">{{site.name}}</h1>
   <p class="lead">
-    {% t global.description %}
+    {{ site.data["global"]["description"][site.active_lang] }}
   </p>
 </div>
