@@ -76,3 +76,22 @@ parallel_localization: true
 
 # timezone
 timezone: Asia/Tokyo
+
+jekyll_compose:
+  draft_default_front_matter:
+    date:
+    lang:
+    description:
+    image:
+    permalink:
+    author: jo
+    categories: []
+  post_default_front_matter:
+    lang:
+    description:
+    image:
+    permalink:
+    author: jo
+    categories: []
+    published: false
+    sitemap: false

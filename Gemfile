@@ -18,7 +18,8 @@ group :jekyll_plugins do
     # gem 'jekyll-algolia'
     gem 'jalgolia', path: '/Users/jo/src/gems/jalgolia'
     gem 'jekyll-polyglot'
-    gem 'jekyll-compose'
+    # gem 'jekyll-compose'
+    gem 'jcompose', path: '/Users/jo/src/gems/jcompose'
 end
 gem 'pry'
 gem 'pry-byebug'
