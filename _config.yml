@@ -63,6 +63,7 @@ algolia:
   files_to_exclude    : [
     _pages/search.html,
     _pages/about.md,
+    _pages/about-ja.md,
     _pages/categories.md,
     index.html,
     _posts/ja/*.md
