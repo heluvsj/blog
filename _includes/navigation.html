@@ -11,14 +11,16 @@
           <li class="nav-item {% if page.url == '/' %}active{% endif %}">
             <a class="nav-link" href="{{site.baseurl}}/">HOME</a>
           </li>
-          {% capture classname %}{% if page.url == "/about" %}active{% endif %}{% endcapture %}
-          <li class="nav-item {{classname}}">
+          <li class="nav-item {% if page.url == '/about' %}active{% endif %}">
             <a class="nav-link" href="{{site.baseurl}}/about">ABOUT</a>
+          </li>
+          <li class="nav-item {% if page.url == '/contact' %}active{% endif %}">
+            <a class="nav-link" href="{{site.baseurl}}/contact">CONTACT</a>
           </li>
 
           <!-- Search for desktop -->
-          {% assign arr = "/search,/404" | split:"," %}
-          {% unless arr contains page.url %}
+          {% assign nav_arr = "/search,/404" | split:"," %}
+          {% unless nav_arr contains page.url %}
             <div id="search-searchbar"></div>
           {% endunless %}
         </ul>
@@ -39,8 +41,12 @@
       <li class="nav-item {% if page.url == '/' %}active{% endif %}">
         <a class="nav-link" href="{{site.baseurl}}/">HOME</a>
       </li>
-      {% capture classname %}{% if page.url == "/about" %}active{% endif %}{% endcapture %}
-      <li class="nav-item {{classname}}"><a class="nav-link" href="{{site.baseurl}}/about">ABOUT</a></li>
+      <li class="nav-item {% if page.url == '/about' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/about">ABOUT</a>
+      </li>
+      <li class="nav-item {% if page.url == '/contact' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/contact">CONTACT</a>
+      </li>
     </ul>
   </div>
 </div>

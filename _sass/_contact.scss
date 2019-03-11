@@ -1,0 +1,29 @@
+.contact-form-wrap {
+  @media (min-width: 992px) {
+    width: 70%;
+    margin: 0 auto; 
+  }
+  .form-title h2 {
+    font-size: 1.6rem;
+  }
+  .form-actions {
+    border-top: 1px solid rgba(0,0,0,.125);;
+    padding-top: 20px;
+    margin: 20px 0px;
+  }
+  input {
+    width: 100%;
+  }
+  button {
+    width: 250px;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #029A96;
+    border-color: #029A96;
+  }
+}
+.thanks .btn-home {
+  color: #fff;
+  background-color: #029A96;
+  border-color: #029A96;
+}

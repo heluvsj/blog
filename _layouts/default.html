@@ -8,18 +8,18 @@
     {% include google_analytics.html %}
   {% endif %}
   {% capture layout %}{% if page.layout %}layout-{{page.layout}}{% endif %}{% endcapture %}
-  {% assign arr = "/search,/404" | split:"," %}
+  {% assign default_arr = "/search,/404,/thanks" | split:"," %}
   <body class="{{layout}}">
     <!-- Begin Menu Navigation
     ================================================== -->
     {% include navigation.html %}
         
-    <div class="site-content {% if arr contains page.url %}page-404-content{% endif %}">
+    <div class="site-content {% if default_arr contains page.url %}page-404-content{% endif %}">
       <div class="container">
 
         <!-- Site Title
         ================================================== -->
-        {% unless arr contains page.url %}
+        {% unless default_arr contains page.url %}
           {% include site_title.html %}
         {% endunless %}
 
@@ -42,7 +42,7 @@
       {% include footer.html %}
     </div>
 
-    {% unless arr contains page.url %}
+    {% unless default_arr contains page.url %}
       {% include algolia.html %}
     {% endunless %}
 
