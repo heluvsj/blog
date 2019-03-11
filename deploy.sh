@@ -2,6 +2,7 @@
 git checkout master
 git push origin master
 git checkout site
+git pull origin master --rebase
 rm -rf _site/
 bundle exec jekyll build
 git add .
