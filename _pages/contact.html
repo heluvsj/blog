@@ -18,6 +18,12 @@ permalink: /contact
 <script>
 $('#contact-form').submit(function(event) {
   event.preventDefault();
+
+  var btn = $('.form-actions .btn');
+  btn.addClass('disabled');
+  btn.prop('disabled', true);
+  btn.html('전송중');
+
   $.ajax({
     url: 'https://mailer-for-heluvsj.herokuapp.com/v1/contacts',
     type: 'POST',
