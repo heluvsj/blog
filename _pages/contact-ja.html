@@ -26,7 +26,7 @@ $('#contact-form').submit(function(event) {
   btn.html('送信中');
 
   $.ajax({
-    url: 'http://localhost:3000/v1/contacts',
+    url: 'https://mailer-for-heluvsj.herokuapp.com/v1/contacts',
     type: 'POST',
     data: $('#contact-form').serialize(),
     dataType: 'json',
