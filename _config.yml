@@ -12,13 +12,13 @@ mailchimp-list:
 include: ["_pages"]
 permalink: /:title/
 lang: ko_KR
+site: false
 
 # Authors
 authors:
   jo:
     name: Jo
     display_name: Jo
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: godluvsj@gmail.com
     web:
     twitter:
