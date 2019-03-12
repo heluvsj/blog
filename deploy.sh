@@ -7,7 +7,7 @@ rm -rf _site/
 bundle exec jekyll build
 git add .
 git commit -m "Site $(date +%Y%m%d.%H:%M:%S)"
-git push origin site
+git push origin +site
 git push origin `git subtree split --prefix _site/ site`:gh-pages --force
 git checkout master
 
