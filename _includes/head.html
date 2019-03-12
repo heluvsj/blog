@@ -15,3 +15,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+{% if jekyll.environment == 'production' %}    
+  <!-- change your GA id in _config.yml -->
+  {% include google_analytics.html %}
+{% endif %}

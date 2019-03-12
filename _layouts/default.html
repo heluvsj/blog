@@ -3,10 +3,6 @@
   <head>
     {% include head.html %}
   </head>
-  {% if jekyll.environment == 'production' %}    
-    <!-- change your GA id in _config.yml -->
-    {% include google_analytics.html %}
-  {% endif %}
   {% capture layout %}{% if page.layout %}layout-{{page.layout}}{% endif %}{% endcapture %}
   {% assign default_arr = "/search,/404,/thanks" | split:"," %}
   <body class="{{layout}}">
