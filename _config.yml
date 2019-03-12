@@ -62,7 +62,7 @@ algolia:
   # indexing_batch_size : 2500
   files_to_exclude    : [
     _pages/*.html,
-    _pages/*.md
+    _pages/*.md,
     index.html,
     _posts/ja/*.md
   ]
