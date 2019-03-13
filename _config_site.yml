@@ -13,7 +13,7 @@ include: ["_pages"]
 permalink: /:title/
 lang: ko_KR
 site: true
-url: "heluvsj.github.io"
+url: "https://heluvsj.github.io"
 
 # Authors
 authors:
