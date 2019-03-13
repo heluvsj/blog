@@ -261,7 +261,8 @@ section.recent-posts {
 .section-title span {
   display: inline-block;
   padding-bottom: 20px;
-  margin-bottom: -1px; }
+  margin-bottom: -1px;
+  color: rgba(0, 0, 0, 0.5); }
 
 .article-post ol, .article-post ul {
   margin-bottom: 1.5rem; }
@@ -676,6 +677,9 @@ button {
 
 button:focus {
   outline: none; }
+
+.about p {
+  font-size: 1.1rem; }
 
 /* For search */
 .ais-search-box--powered-by {

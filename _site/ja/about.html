@@ -9,13 +9,13 @@
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="About" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="Jekyll Template for Blogging" />
-<meta property="og:description" content="Jekyll Template for Blogging" />
+<meta name="description" content="神様は日本の人々を愛していらっしゃいます。それが私が日本に来られた理由です。この日本で神様のことをもっと知らせたいです。福音を伝えたいです。それが私の召しです。" />
+<meta property="og:description" content="神様は日本の人々を愛していらっしゃいます。それが私が日本に来られた理由です。この日本で神様のことをもっと知らせたいです。福音を伝えたいです。それが私の召しです。" />
 <link rel="canonical" href="https://heluvsj.github.io/disciple/ja/about" />
 <meta property="og:url" content="https://heluvsj.github.io/disciple/about" />
 <meta property="og:site_name" content="HeluvsJ" />
 <script type="application/ld+json">
-{"url":"https://heluvsj.github.io/disciple/about","description":"Jekyll Template for Blogging","headline":"About","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://heluvsj.github.io/disciple/assets/images/logo.png"}},"@context":"http://schema.org"}</script>
+{"url":"https://heluvsj.github.io/disciple/about","description":"神様は日本の人々を愛していらっしゃいます。それが私が日本に来られた理由です。この日本で神様のことをもっと知らせたいです。福音を伝えたいです。それが私の召しです。","headline":"About","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://heluvsj.github.io/disciple/assets/images/logo.png"}},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta http-equiv="Content-Language" content="ja">
@@ -104,19 +104,11 @@
 </div>
 
         
-    <div class="site-content ">
+    <div class="site-content page-404-content">
       <div class="container">
 
         <!-- Site Title
         ================================================== -->
-        
-          <div class="mainheading">
-  <h1 class="sitetitle">HeluvsJ</h1>
-  <p class="lead">
-    こんにちはこんにちはこんにちはこんにちはこんにちはこんにちは
-  </p>
-</div>
-
         
 
         <!-- Content
@@ -127,8 +119,22 @@
     <h2><span>About</span></h2>
   </div>
 
-  <div class="article-post">
-    <p>こんにちは</p>
+  <div class="article-post about">
+    <p>はじめまして。<strong>ジョ・ヨンチョル</strong>と申します。<br />
+私は現在日本に住んでいます。<br />
+神様より日本に対する思いをいただき、その後、ビザも職場も知り合っている教会もありませんでしたが<br />
+神様に従ってすぐに日本に来ました。<br />
+元々日本に興味があんまりなかったため、心を閉じていたのですが<br />
+神様は私の閉じられた心を開け、御自身がどれほど日本を愛しているのかを教えてくださいました。<br />
+神様が私を愛してくださるよう、日本、また日本の人々を同じく愛していらっしゃることを強く感じるようになりました。<br />
+それで日本に来ました。<br />
+日本にいる人々に神様を知らせたかったです。<br />
+あの方がどれほど愛していらっしゃるのか、そして、その結果で成った福音というものを知らせたかったです。<br />
+私は文化を通して福音が伝れるよう、これからの働きを用意しています。<br />
+韓国では舞台の役者の仕事をやっていたので、舞台芸術を中心とした働きを用意していますが<br />
+神様が道を開いてくださるならば、違うどんな道でも進めて行きます。<br />
+今は東京の御茶ノ水にある「NewHope Tokyo」という教会でドラマチーム、韓国ミニストリーでお支えさせていただいています。<br />
+また、これからは私自身が信じているもの、この国のみんなに伝えるべきものに対してもっと体系的に勉強したいと思っています。</p>
 
   </div>
 
@@ -159,117 +165,6 @@
 </footer>
 
     </div>
-
-    
-      
-
-  <div id="search-results">
-    <div id="search-results-close">
-      <button type="reset" class="search-results-close-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="100%" height="100%">
-          <path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z" fill-rule="evenodd">
-          </path>
-        </svg>
-      </button>
-    </div>
-    <div id="search-hits"></div>
-  </div>
-
-
-<script>
-var indexName = function(){
-  return `heluvsj-ja`;
-}
-
-const search = instantsearch({
-  appId: 'H4CRMVZ8UX',
-  indexName: indexName(),
-  apiKey: 'a48e8c87f06205db13d843932dba2c06'
-});
-
-const hitTemplate = function(hit) {
-  let date = '';
-  if (hit.date) {
-    if (['ko', 'ja'].includes('ja')) {
-      date = moment.unix(hit.date).format('YYYY年 MM月 D日');
-    } else {
-      date = moment.unix(hit.date).format('D MMM YYYY');
-    }
-  }
-
-  let baseurl = `/disciple`;
-  let lang = `/ja`;
-  let url = baseurl + lang + hit.url;
-
-  const title = hit._highlightResult.title.value;
-  let content;
-  if (hit._highlightResult.html) {
-    content = hit._highlightResult.html.value;
-  } else {
-    content = '';
-  }
-
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
-}
-
-const emptyTemplate = `
-  <div class="post-item no-results">
-    <h5>検索結果がありません。違うキーワードで検索してみましょう。:)</h5>
-  </div>
-`
-
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: '記事を検索してください',
-    poweredBy: true
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: function(hit) {
-        return hitTemplate(hit)
-      },
-      empty: function(hit) {
-        return emptyTemplate
-      }
-    }
-  })
-);
-
-search.start();
-
-$(function() {
-  $('.ais-search-box--input').blur();
-  $('.ais-search-box--input').keyup(function() {
-    if ($.trim($(this).val()) !== '') {
-      $('#search-results').show();
-    } else {
-      $('#search-results').hide();
-    }
-  });
-});
-
-$(function() {
-  $('.ais-search-box .ais-search-box--reset-wrapper .ais-search-box--reset').click(function() {
-    $('#search-results').hide();
-  });
-});
-
-$(function() {
-  $('#search-results-close .search-results-close-btn').click(function() {
-    $('#search-results').hide();
-  });
-});
-</script>
 
     
 
