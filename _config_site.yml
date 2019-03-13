@@ -1,0 +1,99 @@
+# Site
+name: "HeluvsJ"
+title: "HeluvsJ"
+description: "Jekyll Template for Blogging"
+meta_description: "Jekyll template, Medium styled, free for bloggers."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /blog
+google_analytics: 
+disqus: heluvsj
+mailchimp-list: 
+include: ["_pages"]
+permalink: /:title/
+lang: ko_KR
+site: true
+url: "heluvsj.github.io"
+
+# Authors
+authors:
+  jo:
+    name: Jo
+    display_name: Jo
+    email: godluvsj@gmail.com
+    web:
+    twitter:
+    description: "안녕하세요. 조용철입니다."
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  # - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-polyglot
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# search
+search                : true
+search_full_content   : true
+search_provider       : algolia
+algolia:
+  application_id      : H4CRMVZ8UX
+  index_name          : heluvsj
+  search_only_api_key : a48e8c87f06205db13d843932dba2c06
+  powered_by          : # true (default), false
+  # max_record_size     : 20000
+  # indexing_batch_size : 2500
+  files_to_exclude    : [
+    _pages/*.html,
+    _pages/*.md,
+    index.html,
+    _posts/ja/*.md
+  ]
+
+# For multi languages
+languages: ["ko", "ja"]
+default_lang: "ko"
+exclude_from_localization: ["javascript", "css"]
+parallel_localization: true
+
+# timezone
+timezone: Asia/Tokyo
+
+jekyll_compose:
+  draft_default_front_matter:
+    date:
+    lang:
+    description:
+    image:
+    permalink:
+    author: jo
+    categories: []
+    comments: true
+  post_default_front_matter:
+    lang:
+    description:
+    image:
+    permalink:
+    author: jo
+    categories: []
+    comments: true
+    published: false
+    sitemap: false
