@@ -3,10 +3,10 @@
   <channel>
     <title>HeluvsJ</title>
     <description>Jekyll Template for Blogging</description>
-    <link>heluvsj.github.io/blog/</link>
-    <atom:link href="heluvsj.github.io/blog/ja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Mar 2019 15:07:06 +0900</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2019 15:07:06 +0900</lastBuildDate>
+    <link>heluvsj.github.io/disciple/</link>
+    <atom:link href="heluvsj.github.io/disciple/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Mar 2019 15:13:04 +0900</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2019 15:13:04 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sun, 17 Feb 2019 00:00:00 +0900</pubDate>
-        <link>heluvsj.github.io/blog/test2</link>
-        <guid isPermaLink="true">heluvsj.github.io/blog/test2</guid>
+        <link>heluvsj.github.io/disciple/test2</link>
+        <guid isPermaLink="true">heluvsj.github.io/disciple/test2</guid>
         
         
         <category>test</category>
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Sat, 16 Feb 2019 00:00:00 +0900</pubDate>
-        <link>heluvsj.github.io/blog/test</link>
-        <guid isPermaLink="true">heluvsj.github.io/blog/test</guid>
+        <link>heluvsj.github.io/disciple/test</link>
+        <guid isPermaLink="true">heluvsj.github.io/disciple/test</guid>
         
         
         <category>test</category>
