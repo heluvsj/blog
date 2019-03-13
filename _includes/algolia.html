@@ -12,9 +12,8 @@
     <div id="search-hits"></div>
   </div>
 {% endunless %}
-  
-<script>
 
+<script>
 var indexName = function(){
   return `{% if site.active_lang == "ko" %}{{site.algolia.index_name}}{% else %}{{site.data["global"]["algolia"][site.active_lang]}}{% endif %}`;
 }
@@ -35,7 +34,9 @@ const hitTemplate = function(hit) {
     }
   }
 
-  let url = `{{site.baseurl_root}}/{{site.active_lang}}${hit.url}`;
+  let baseurl = `/blog`;
+  let lang = `{% unless site.active_lang == "ko" %}/{{site.active_lang}}{% else %}{% endunless %}`;
+  let url = baseurl + lang + hit.url;
 
   const title = hit._highlightResult.title.value;
   let content;
