@@ -6,7 +6,7 @@ layout: default
     <h2><span>{{ page.title }}</span></h2>
   </div>
 
-  <div class="article-post">
+  <div class="article-post {% if page.url == '/about' %}about{% endif %}">
     {{content}}
   </div>
 

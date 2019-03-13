@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
   {% capture layout %}{% if page.layout %}layout-{{page.layout}}{% endif %}{% endcapture %}
-  {% assign default_arr = "/search,/404,/thanks" | split:"," %}
+  {% assign default_arr = "/search,/404,/thanks,/about" | split:"," %}
   <body class="{{layout}}">
     <!-- Begin Menu Navigation
     ================================================== -->
