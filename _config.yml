@@ -13,6 +13,7 @@ include: ["_pages"]
 permalink: /:title/
 lang: ko_KR
 site: false
+author: "godluvsj@gmail.com"
 
 # Authors
 authors:

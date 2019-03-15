@@ -14,6 +14,7 @@ permalink: /:title/
 lang: ko_KR
 site: true
 url: "https://heluvsj.github.io"
+author: "godluvsj@gmail.com"
 
 # Authors
 authors:
