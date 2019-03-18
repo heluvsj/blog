@@ -1,0 +1,16 @@
+# Site
+global:
+  description:
+    home: 하나님을 사랑하고 그 분의 영광을 위해 살아가길 원합니다.<br>일본 땅에 복음이 흘러가고 하나님이 기뻐하시는 나라가 되길 소망합니다.
+    about: 하나님은 일본 땅과 일본 민족을 사랑하십니다. 그것이 나를 일본으로 오게 만든 이유입니다. 이 일본 땅에서 하나님에 대해 더욱 알리고 싶습니다. 복음을 전하고 싶습니다. 그것이 저의 소명입니다.
+  year: 년
+  month: 월
+  day: 일
+  page_not_found_ja: ページが見つかりませんでした。
+  back_home_ja: 初期画面に戻る
+
+# search
+algolia:
+  index_name: heluvsj
+  search_placeholder: 포스트를 검색하십시오
+  no_results: 검색 결과가 없습니다. 다른 키워드로 검색해보세요. :)
