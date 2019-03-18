@@ -1,0 +1,14 @@
+# Site
+global:
+  description:
+    home: 神様を愛し、彼の栄光の為に生きることを願います。<br>日本に福音が流れ込み、神様に喜ばれる国になりますように。
+    about: 神様は日本の人々を愛していらっしゃいます。それが私が日本に来られた理由です。この日本で神様のことをもっと知らせたいです。福音を伝えたいです。それが私の召しです。
+  year: 年
+  month: 月
+  day: 日
+  page_not_found_ja: ページが見つかりませんでした。
+  back_home_ja: 初期画面に戻る
+algolia:
+  index_name: heluvsj-ja
+  search_placeholder: 記事を検索してください
+  no_results: 検索結果がありません。違うキーワードで検索してみましょう。:)
