@@ -681,6 +681,12 @@ button:focus {
 .about p {
   font-size: 1.1rem; }
 
+.mainheading + .featured-image {
+  width: 100%; }
+
+.article-post img {
+  width: 100%; }
+
 /* For search */
 .ais-search-box--powered-by {
   display: none; }
