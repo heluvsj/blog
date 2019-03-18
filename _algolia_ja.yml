@@ -9,7 +9,10 @@ algolia:
     _pages/*.html,
     _pages/*.md,
     index.html,
-    _posts/ko/*.md,
-    _i18n/ko/*/*.md,
-    _i18n/ko/*/*.html
+    _i18n/ko/_posts/*.md,
+    _i18n/ko/_posts/*.html
   ]
+collections:
+  i18n:
+    output: true
+    permalink: /:title/

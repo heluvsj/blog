@@ -8,6 +8,10 @@ google_analytics:
 disqus: heluvsj
 mailchimp-list: 
 include: ["_pages"]
+collections:
+  i18n:
+    output: true
+    permalink: /:title/
 permalink: /:title/
 lang: ko_KR
 site: false
@@ -60,9 +64,8 @@ algolia:
     _pages/*.html,
     _pages/*.md,
     index.html,
-    _posts/ja/*.md,
-    _i18n/ja/*/*.md,
-    _i18n/ja/*/*.html
+    _i18n/ja/_posts/*.md,
+    _i18n/ja/_posts/*.html
   ]
 
 # For multi languages
