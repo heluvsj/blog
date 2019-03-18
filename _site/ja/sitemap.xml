@@ -5,96 +5,6 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/404</loc>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/about</loc>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/categories</loc>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/contact</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/search</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/thanks</loc>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/category/test/</loc>
-        </url>
-      
-    
-  
-
-  
-    
-      <url>
-        <loc>https://heluvsj.github.io/disciple/test2</loc>
-      </url>
-    
-      <url>
-        <loc>https://heluvsj.github.io/disciple/test</loc>
-      </url>
-    
-  
-
-  
-    
-      
-        <url>
           <loc>https://heluvsj.github.io/disciple/ja/404</loc>
         </url>
       
@@ -172,11 +82,101 @@
   
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/ja/test2</loc>
+        <loc>https://heluvsj.github.io/disciple/ja/test2/</loc>
       </url>
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/ja/test</loc>
+        <loc>https://heluvsj.github.io/disciple/ja/test/</loc>
+      </url>
+    
+  
+
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/404</loc>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/about</loc>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/categories</loc>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/contact</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/search</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/thanks</loc>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciple/ja/ja/category/test/</loc>
+        </url>
+      
+    
+  
+
+  
+    
+      <url>
+        <loc>https://heluvsj.github.io/disciple/ja/ja/test2/</loc>
+      </url>
+    
+      <url>
+        <loc>https://heluvsj.github.io/disciple/ja/ja/test/</loc>
       </url>
     
   
