@@ -1,8 +1,6 @@
 # Site
 name: "HeluvsJ"
 title: "HeluvsJ"
-description: "Jekyll Template for Blogging"
-meta_description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /disciple
@@ -29,11 +27,10 @@ authors:
 # Plugins
 plugins: 
   - jekyll-paginate
-  # - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-polyglot
+  - jekyll-multiple-languages-plugin
     
 # Archives
 jekyll-archives:
@@ -59,14 +56,14 @@ algolia:
   application_id      : H4CRMVZ8UX
   index_name          : heluvsj
   search_only_api_key : a48e8c87f06205db13d843932dba2c06
-  powered_by          : # true (default), false
-  # max_record_size     : 20000
-  # indexing_batch_size : 2500
+  powered_by          : true
   files_to_exclude    : [
     _pages/*.html,
     _pages/*.md,
     index.html,
-    _posts/ja/*.md
+    _posts/ja/*.md,
+    _i18n/ja/*/*.md,
+    _i18n/ja/*/*.html
   ]
 
 # For multi languages

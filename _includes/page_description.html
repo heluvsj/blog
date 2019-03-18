@@ -1,0 +1,22 @@
+{% assign url = page.url %}
+{% case page.url %}
+{% when '/' %}
+  <meta name="description" content="{% t global.description.home %}">
+  <meta property="og:description" content="{% t global.description.home %}">
+{% when '/about' %}
+  <meta name="description" content="{% t global.description.about %}">
+  <meta property="og:description" content="{% t global.description.about %}">
+{% when '/contact' %}
+  <meta name="description" content="{% t global.description.home %}">
+  <meta property="og:description" content="{% t global.description.home %}">
+{% when '/thanks' %}
+  <meta name="description" content="{% t global.description.home %}">
+  <meta property="og:description" content="{% t global.description.home %}">
+{% when '/search' %}
+  <meta name="description" content="{% t global.description.home %}">
+  <meta property="og:description" content="{% t global.description.home %}">
+{% when '/categories' %}
+  <meta name="description" content="{% t global.description.home %}">
+  <meta property="og:description" content="{% t global.description.home %}">
+{% else %}
+{% endcase %}

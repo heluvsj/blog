@@ -14,30 +14,23 @@
 {% endunless %}
 
 <script>
-var indexName = function(){
-  return `{% if site.active_lang == "ko" %}{{site.algolia.index_name}}{% else %}{{site.data["global"]["algolia"][site.active_lang]}}{% endif %}`;
-}
-
 const search = instantsearch({
   appId: '{{site.algolia.application_id}}',
-  indexName: indexName(),
+  indexName: `{% t algolia.index_name %}`,
   apiKey: '{{site.algolia.search_only_api_key}}'
 });
 
 const hitTemplate = function(hit) {
   let date = '';
   if (hit.date) {
-    if (['ko', 'ja'].includes('{{site.active_lang}}')) {
-      date = moment.unix(hit.date).format('YYYY{{site.data["global"]["year"][site.active_lang]}} MM{{site.data["global"]["month"][site.active_lang]}} D{{site.data["global"]["day"][site.active_lang]}}');
+    if (['ko', 'ja'].includes('{{site.lang}}')) {
+      date = moment.unix(hit.date).format('YYYY{% t global.year %} MM{% t global.month %} D{% t global.day %}');
     } else {
       date = moment.unix(hit.date).format('D MMM YYYY');
     }
   }
 
-  let baseurl = `/disciple`;
-  let lang = `{% unless site.active_lang == "ko" %}/{{site.active_lang}}{% else %}{% endunless %}`;
-  let url = baseurl + lang + hit.url;
-
+  const url = `{{site.baseurl}}` + hit.url;
   const title = hit._highlightResult.title.value;
   let content;
   if (hit._highlightResult.html) {
@@ -57,14 +50,14 @@ const hitTemplate = function(hit) {
 
 const emptyTemplate = `
   <div class="post-item no-results">
-    <h5>{{site.data["global"]["no_results"][site.active_lang]}}</h5>
+    <h5>{% t algolia.no_results %}</h5>
   </div>
 `
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: '{{site.data["global"]["search_placeholder"][site.active_lang]}}',
+    placeholder: '{% t algolia.search_placeholder %}',
     poweredBy: true
   })
 );

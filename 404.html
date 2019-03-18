@@ -3,7 +3,6 @@ layout: default
 title: 404
 permalink: /404
 ---
-
 <div class="row">
   <div class="col-md-12 col-lg-3 offset-lg-1">
     <h1 class="h1-404">
@@ -16,7 +15,32 @@ permalink: /404
     </h2>
   </div>
 </div>
-<div id="search-searchbar" class="mb-5 mt-5"></div>
-<div id="search-hits"></div>
+<div class="thanks text-center">
+  <a class="btn btn-home" href="{{site.baseurl}}/">초기화면으로 돌아가기</a>
+</div>
 
-{% include algolia.html %}
+<script>
+let lang = window.location.href.split('{{site.baseurl_root}}')[1].split('/')[1];
+
+if (lang == 'ja') {
+  logo = $('a.navbar-brand');
+  message = $('h2.h2-404');
+  homeBtn = $('a.btn-home');
+  menu = $('a.nav-link');
+
+  logo.attr('href', logo.attr('href') + 'ja/');
+  message.html(`{% t global.page_not_found_ja %}`);
+  menu.each(function(_idx, m){
+    if (m.className.includes('home')){
+      $(m).attr('href', $(m).attr('href') + 'ja/');
+    } else if (m.className.includes('about')){
+      $(m).attr('href', $(m).attr('href').split('about')[0] + 'ja/about');
+    } else if (m.className.includes('contact')){
+      $(m).attr('href', $(m).attr('href').split('contact')[0] + 'ja/contact');
+    }
+  });
+  homeBtn.html(`{% t global.back_home_ja %}`);
+  homeBtn.attr('href', $(homeBtn).attr('href') + 'ja/');
+};
+</script>
+
