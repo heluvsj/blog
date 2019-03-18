@@ -5,22 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <link rel="icon" href="/disciple/ja/assets/images/favicon.ico">
 <title>Search | HeluvsJ</title>
+
+
+  <meta name="description" content="神様を愛し、彼の栄光の為に生きることを願います。<br>日本に福音が流れ込み、神様に喜ばれる国になりますように。">
+  <meta property="og:description" content="神様を愛し、彼の栄光の為に生きることを願います。<br>日本に福音が流れ込み、神様に喜ばれる国になりますように。">
+
+
 <!-- Begin Jekyll SEO tag v2.5.0 -->
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Search" />
-<meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Jekyll Template for Blogging" />
-<meta property="og:description" content="Jekyll Template for Blogging" />
+<meta name="author" content="godluvsj@gmail.com" />
+<meta property="og:locale" content="ja" />
 <link rel="canonical" href="https://heluvsj.github.io/disciple/ja/search" />
-<meta property="og:url" content="https://heluvsj.github.io/disciple/search" />
+<meta property="og:url" content="https://heluvsj.github.io/disciple/ja/search" />
 <meta property="og:site_name" content="HeluvsJ" />
 <script type="application/ld+json">
-{"url":"https://heluvsj.github.io/disciple/search","description":"Jekyll Template for Blogging","headline":"Search","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://heluvsj.github.io/disciple/assets/images/logo.png"}},"@context":"http://schema.org"}</script>
+{"url":"https://heluvsj.github.io/disciple/ja/search","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://heluvsj.github.io/disciple/ja/assets/images/logo.png"},"name":"godluvsj@gmail.com"},"author":{"@type":"Person","name":"godluvsj@gmail.com"},"@type":"WebPage","headline":"Search","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta http-equiv="Content-Language" content="ja">
-<link rel="alternate" hreflang="ko" href=" https://heluvsj.github.io/search"/>
-<link rel="alternate" hreflang="ja" href="https://heluvsj.github.io/ja/search"/>
+<link rel="alternate" hreflang="ko" href="http://yoursite.com/search" />
+
+  
+  
+  <link rel="alternate" hreflang="ja" href="http://yoursite.com/ja/search" />
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -32,7 +40,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
-<script src="/disciple/assets/js/jquery.min.js"></script>
+<script src="/disciple/ja/assets/js/jquery.min.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136073794-1"></script>
 <script>
@@ -54,20 +62,20 @@
   <div class="container pr-0">    
     <!-- Begin Logo -->
     <a class="navbar-brand" href="/disciple/ja/">
-      <img src="/disciple/assets/images/logo.png" alt="HeluvsJ">
+      <img src="/disciple/ja/assets/images/logo.png" alt="HeluvsJ">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
       <!-- Begin Menu -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="/disciple/ja/">HOME</a>
+            <a class="nav-link home" href="/disciple/ja/">HOME</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/disciple/ja/about">ABOUT</a>
+            <a class="nav-link about" href="/disciple/ja/about">ABOUT</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/disciple/ja/contact">CONTACT</a>
+            <a class="nav-link contact" href="/disciple/ja/contact">CONTACT</a>
           </li>
 
           <!-- Search for desktop -->
@@ -89,13 +97,13 @@
   <div class="container">
     <ul class="navbar-nav navbar-slick" style="width: 100%;">
       <li class="nav-item ">
-        <a class="nav-link" href="/disciple/ja/">HOME</a>
+        <a class="nav-link home" href="/disciple/ja/">HOME</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/disciple/ja/about">ABOUT</a>
+        <a class="nav-link about" href="/disciple/ja/about">ABOUT</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/disciple/ja/contact">CONTACT</a>
+        <a class="nav-link contact" href="/disciple/ja/contact">CONTACT</a>
       </li>
     </ul>
   </div>
@@ -119,13 +127,9 @@
 
 
 <script>
-var indexName = function(){
-  return `heluvsj-ja`;
-}
-
 const search = instantsearch({
   appId: 'H4CRMVZ8UX',
-  indexName: indexName(),
+  indexName: `heluvsj-ja`,
   apiKey: 'a48e8c87f06205db13d843932dba2c06'
 });
 
@@ -139,10 +143,7 @@ const hitTemplate = function(hit) {
     }
   }
 
-  let baseurl = `/disciple`;
-  let lang = `/ja`;
-  let url = baseurl + lang + hit.url;
-
+  const url = `/disciple/ja` + hit.url;
   const title = hit._highlightResult.title.value;
   let content;
   if (hit._highlightResult.html) {
@@ -214,6 +215,7 @@ $(function() {
 </script>
 
 
+
         </div>
 
         
@@ -245,11 +247,11 @@ $(function() {
     ================================================== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script src="/disciple/assets/js/mediumish.js"></script>
-<script src="/disciple/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="/disciple/ja/assets/js/mediumish.js"></script>
+<script src="/disciple/ja/assets/js/ie10-viewport-bug-workaround.js"></script> 
 <!-- <script id="dsq-count-scr" src="//heluvsj.disqus.com/count.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script src="/disciple/assets/js/menu-slick.js"></script>
+<script src="/disciple/ja/assets/js/menu-slick.js"></script>
 
   </body>
 </html>
