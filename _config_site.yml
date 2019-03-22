@@ -3,7 +3,7 @@ name: "HeluvsJ"
 title: "HeluvsJ"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /disciple
+baseurl: /disciples
 google_analytics: 
 disqus: heluvsj
 mailchimp-list: 

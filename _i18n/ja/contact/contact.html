@@ -25,7 +25,7 @@ $('#contact-form').submit(function(event) {
     data: $('#contact-form').serialize(),
     dataType: 'json',
   }).done(function(data, textStatus, jqXHR){
-    window.location.href = '/disciple/ja' + data.redirect_url;
+    window.location.href = '/disciples/ja' + data.redirect_url;
   }).fail(function(jqXHR, textStatus, errorThrown) {
     console.log('failed...')
   })
