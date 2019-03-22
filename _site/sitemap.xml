@@ -5,7 +5,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/404</loc>
+          <loc>https://heluvsj.github.io/disciples/404</loc>
         </url>
       
     
@@ -13,7 +13,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/about</loc>
+          <loc>https://heluvsj.github.io/disciples/about</loc>
         </url>
       
     
@@ -21,7 +21,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/categories</loc>
+          <loc>https://heluvsj.github.io/disciples/categories</loc>
         </url>
       
     
@@ -29,19 +29,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/contact</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/</loc>
+          <loc>https://heluvsj.github.io/disciples/contact</loc>
         </url>
       
     
@@ -53,7 +41,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/search</loc>
+          <loc>https://heluvsj.github.io/disciples/</loc>
         </url>
       
     
@@ -65,7 +53,19 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/thanks</loc>
+          <loc>https://heluvsj.github.io/disciples/search</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciples/thanks</loc>
         </url>
       
     
@@ -73,7 +73,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/category/%EC%9D%BC%EA%B8%B0/</loc>
+          <loc>https://heluvsj.github.io/disciples/category/%EC%9D%BC%EA%B8%B0/</loc>
         </url>
       
     
@@ -82,7 +82,7 @@
   
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/enjoying-learning/</loc>
+        <loc>https://heluvsj.github.io/disciples/enjoying-learning/</loc>
       </url>
     
   
@@ -91,7 +91,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/404</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/404</loc>
         </url>
       
     
@@ -99,7 +99,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/about</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/about</loc>
         </url>
       
     
@@ -107,7 +107,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/categories</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/categories</loc>
         </url>
       
     
@@ -115,19 +115,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/contact</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/ja/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/contact</loc>
         </url>
       
     
@@ -139,7 +127,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/search</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/</loc>
         </url>
       
     
@@ -151,7 +139,19 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/thanks</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/search</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciples/ja/thanks</loc>
         </url>
       
     
@@ -159,7 +159,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/category/%EC%9D%BC%EA%B8%B0/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/category/%EC%9D%BC%EA%B8%B0/</loc>
         </url>
       
     
@@ -168,7 +168,7 @@
   
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/ja/enjoying-learning/</loc>
+        <loc>https://heluvsj.github.io/disciples/ja/enjoying-learning/</loc>
       </url>
     
   
