@@ -227,8 +227,8 @@ const hitTemplate = function(hit) {
   const url = `/disciple` + hit.url;
   const title = hit._highlightResult.title.value;
   let content;
-  if (hit._highlightResult.html) {
-    content = hit._highlightResult.html.value;
+  if (hit._snippetResult.content.value) {
+    content = hit._snippetResult.content.value;
   } else {
     content = '';
   }
@@ -237,7 +237,7 @@ const hitTemplate = function(hit) {
     <div class="post-item">
       <span class="post-meta">${date}</span>
       <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <div class="post-snippet">${content}</div>
+      <div class="post-snippet"><p>${content}</p></div>
     </div>
   `;
 }
