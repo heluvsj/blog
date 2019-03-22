@@ -183,7 +183,12 @@ span.post-date,span.post-read {
   font-family:Righteous;
 }
 .mainheading h1.posttitle {
-  font-weight:700;
+  &:lang(ko) {
+    font-family: 'Stylish', sans-serif;
+  }
+  &:lang(ja) {
+    font-weight:700;
+  }
   margin-bottom:1rem;
 }
 .footer {
@@ -510,4 +515,8 @@ button:focus {
 }
 .article-post img {
   width: 100%;
+}
+.article-post h2 {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 10px;
 }

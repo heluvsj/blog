@@ -8,17 +8,18 @@ post_class: post-template
 <!-- Begin Article -->
 <div class="container">
 	<div class="row">
-    <div class="offset-md-1 pl-0"></div>
+    <div class="offset-md-2 pl-0"></div>
 
 		<!-- Post -->
-		<div class="col-md-10 flex-first flex-md-unordered">
+		<div class="col-md-8 flex-first flex-md-unordered">
+
+			<!-- Post Featured Image -->
+      {% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
+
       <!-- Post Title -->
 			<div class="mainheading">
 				<h1 class="posttitle">{{ page.title }}</h1> 
 			</div>
-
-			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
 
 			<!-- Post Content -->
 			<div class="article-post">
@@ -42,7 +43,7 @@ post_class: post-template
           {% assign sortedCategories = page.categories | sort %}
           {% for category in sortedCategories %}
             <li>                        
-              <a class="smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a>
+              <a class="smoothscroll" href="{{site.baseurl}}/category/{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a>
             </li>
           {% endfor %}
 				</ul>

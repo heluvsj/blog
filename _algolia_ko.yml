@@ -1,14 +1,14 @@
 algolia:
   application_id      : H4CRMVZ8UX
-  index_name          : heluvsj-ja
+  index_name          : heluvsj
   search_only_api_key : a48e8c87f06205db13d843932dba2c06
   powered_by          : true
   files_to_exclude    : [
     _pages/*.html,
     _pages/*.md,
     index.html,
-    _i18n/ko/_posts/*.md,
-    _i18n/ko/_posts/*.html
+    _i18n/ja/_posts/*.md,
+    _i18n/ja/_posts/*.html
   ]
 collections:
   i18n:
