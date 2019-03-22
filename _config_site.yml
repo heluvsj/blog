@@ -8,10 +8,6 @@ google_analytics:
 disqus: heluvsj
 mailchimp-list: 
 include: ["_pages"]
-collections:
-  i18n:
-    output: true
-    permalink: /:title/
 permalink: /:title/
 lang: ko_KR
 site: true
