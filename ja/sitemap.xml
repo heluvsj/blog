@@ -5,7 +5,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/404</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/404</loc>
         </url>
       
     
@@ -13,7 +13,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/about</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/about</loc>
         </url>
       
     
@@ -21,7 +21,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/categories</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/categories</loc>
         </url>
       
     
@@ -29,19 +29,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/contact</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/ja/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/contact</loc>
         </url>
       
     
@@ -53,7 +41,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/search</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/</loc>
         </url>
       
     
@@ -65,7 +53,19 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/thanks</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/search</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciples/ja/thanks</loc>
         </url>
       
     
@@ -73,7 +73,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/category/%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/category/%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC/</loc>
         </url>
       
     
@@ -82,7 +82,7 @@
   
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/ja/enjoying-learning/</loc>
+        <loc>https://heluvsj.github.io/disciples/ja/enjoying-learning/</loc>
       </url>
     
   
@@ -91,7 +91,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/404</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/404</loc>
         </url>
       
     
@@ -99,7 +99,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/about</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/about</loc>
         </url>
       
     
@@ -107,7 +107,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/categories</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/categories</loc>
         </url>
       
     
@@ -115,19 +115,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/contact</loc>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/contact</loc>
         </url>
       
     
@@ -139,7 +127,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/search</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/</loc>
         </url>
       
     
@@ -151,7 +139,19 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/thanks</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/search</loc>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/thanks</loc>
         </url>
       
     
@@ -159,7 +159,7 @@
     
       
         <url>
-          <loc>https://heluvsj.github.io/disciple/ja/ja/category/%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC/</loc>
+          <loc>https://heluvsj.github.io/disciples/ja/ja/category/%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC/</loc>
         </url>
       
     
@@ -168,7 +168,7 @@
   
     
       <url>
-        <loc>https://heluvsj.github.io/disciple/ja/ja/enjoying-learning/</loc>
+        <loc>https://heluvsj.github.io/disciples/ja/ja/enjoying-learning/</loc>
       </url>
     
   
