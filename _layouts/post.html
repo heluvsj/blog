@@ -27,10 +27,10 @@ post_class: post-template
 			</div>
 
       <!-- Post Date -->
-      {% capture date %}%Y{% t global.year %} %m{% t global.month %} %d{% t global.day %}{% endcapture %}
+      {% capture date %}%Y{% t global.year %} %m{% t global.month %} %d{% t global.day %} %H:%M:%S{% endcapture %}
       <p>
         <small>
-          <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: date }} {{ page.date }}</time></span>           
+          <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: date }}</time></span>           
           {% if page.last_modified_at %}
             (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
           {% endif %}
