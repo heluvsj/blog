@@ -694,6 +694,40 @@ button:focus {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 10px; }
 
+.article-post blockquote p {
+  margin: 0; }
+
+.mb-1rem {
+  margin-bottom: 1rem; }
+
+.mb-1-5rem {
+  margin-bottom: 1.5rem; }
+
+.mb-2rem {
+  margin-bottom: 2rem; }
+
+.fs-1rem {
+  font-size: 1rem; }
+
+.fs-1-25rem {
+  font-size: 1.25rem; }
+
+.fs-1-5rem {
+  font-size: 1.5rem; }
+
+.article-post hr.hr_ver2 {
+  display: block;
+  text-align: center;
+  border-color: #fff;
+  margin-bottom: 5rem; }
+  .article-post hr.hr_ver2::before {
+    content: "...";
+    margin-left: 2rem;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2rem; }
+
 /* For search */
 .ais-search-box--powered-by {
   display: none; }
